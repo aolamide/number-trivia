@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+ }
+
+ body{
+ 	background-color: #FEE140;
+	 background-image: -webkit-linear-gradient(left, #FEE140 0%, #FA709A 50%);
+	 background-image: -o-linear-gradient(left, #FEE140 0%, #FA709A 50%);
+	 background-image: linear-gradient(to right, #FEE140 0%, #FA709A 50%);
+ 
+ }
+
+ .form{
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ }
+
+ .footer{
+ 	background-color: #FEE140;
+ 	position: absolute;
+ 	bottom:0;
+ 	padding: 15px;
+ 	width: 100%;
+ }
