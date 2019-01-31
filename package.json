@@ -1,5 +1,5 @@
 {
-  "homepage": "http://aolamide.github.io/number-trivia",
+  "homepage": "https://aolamide.github.io/number-trivia",
   "name": "number-trivia",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +7,8 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3",
-    "tachyons": "^4.11.1"
+    "tachyons": "^4.11.1",
+    "unirest": "^0.5.1"
   },
   "scripts": {
     "start": "react-scripts start",

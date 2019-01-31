@@ -10,6 +10,10 @@
 	 background-image: linear-gradient(to right, #FEE140 0%, #FA709A 50%);
  
  }
+ h1{
+ 	font-family: 'Lucida Console','Courier New' monospace;
+ 	color: #fee140;
+ }
 
  .form{
  	display: flex;
@@ -23,4 +27,11 @@
  	bottom:0;
  	padding: 15px;
  	width: 100%;
+ }
+
+ .fab{
+ 	padding : 0 5px;
+ }
+ a{
+ 	text-decoration: none;
  }

@@ -4,6 +4,7 @@ import InputBox from './InputBox';
 import 'tachyons';
 import Fact from './Fact';
 import Footer from './Footer';
+import unirest from 'unirest';
 
 class App extends Component {
 	constructor(){
@@ -19,10 +20,9 @@ class App extends Component {
 
 	onNumberSubmit = () => {
 		if(this.state.input){
-			fetch(`http://numbersapi.com/${this.state.input}?json`)
-				.then(res => res.json())
-				.then(data => this.setState({output : data}))
-				.catch(err => console.log('oops', err))
+			unirest.get(`https://numbersapi.p.rapidapi.com/${this.state.input}/trivia?fragment=true&notfound=floor&json=true`)
+				.header("X-RapidAPI-Key", "b62b8797dfmsh52097d608dcd3e9p1a6f7fjsnf243e1a0f149")
+				.end(res => this.setState({output : res.body}));
 		}
 	}
 
