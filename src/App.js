@@ -16,6 +16,7 @@ class App extends Component {
 	}
 	onInput = (e) => {
 		this.setState({input : e.target.value})
+		console.log(window.innerHeight)
 	}
 
 	onNumberSubmit = () => {
@@ -32,7 +33,10 @@ class App extends Component {
 				<Navbar />
 	      		<InputBox onNumberSubmit={this.onNumberSubmit} onInput={this.onInput}/>
 	      		<Fact factInfo={this.state.output} />
-	      		<Footer />
+	      		<div style={{display:'flex', alignItems:'flex-end'}}>
+	      			<Footer />
+	      		</div>
+	      		
 	    	</div>
      
     	);
