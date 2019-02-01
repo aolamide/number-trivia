@@ -4,23 +4,23 @@ self.__precacheManifest = [
     "url": "/number-trivia/static/js/runtime~main.2614e6e0.js"
   },
   {
-    "revision": "718997958d0fcdcf37ae",
-    "url": "/number-trivia/static/js/main.71899795.chunk.js"
+    "revision": "5b5c6893ae296b0e081a",
+    "url": "/number-trivia/static/js/main.5b5c6893.chunk.js"
   },
   {
     "revision": "7596b2e75a1fdab65790",
     "url": "/number-trivia/static/js/1.7596b2e7.chunk.js"
   },
   {
-    "revision": "718997958d0fcdcf37ae",
-    "url": "/number-trivia/static/css/main.04533233.chunk.css"
+    "revision": "5b5c6893ae296b0e081a",
+    "url": "/number-trivia/static/css/main.b9a28e5a.chunk.css"
   },
   {
     "revision": "7596b2e75a1fdab65790",
     "url": "/number-trivia/static/css/1.52acf585.chunk.css"
   },
   {
-    "revision": "c55a22c4cdb25a45888694feed0c99b1",
+    "revision": "67fe27865c91266e22ca4d745c28bc43",
     "url": "/number-trivia/index.html"
   }
 ];
