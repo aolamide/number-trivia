@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/number-trivia/static/css/1.52acf585.chunk.css"
   },
   {
-    "revision": "b6d837f76d8adcb32e2244f8cbe108ba",
+    "revision": "c55a22c4cdb25a45888694feed0c99b1",
     "url": "/number-trivia/index.html"
   }
 ];
